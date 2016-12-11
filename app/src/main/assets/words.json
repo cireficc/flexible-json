@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "language": "French",
+    "original": "intéressant",
+    "transliteration": "interessant",
+    "pos": "adjective",
+    "inflections": [
+      {
+        "language": "French",
+        "inflection": "intéressant",
+        "gender": "mascline",
+        "number": "singular"
+      },
+      {
+        "language": "French",
+        "inflection": "intéressante",
+        "gender": "feminin",
+        "number": "singular"
+      },
+      {
+        "language": "French",
+        "inflection": "intéressants",
+        "gender": "mascline",
+        "number": "plural"
+      },
+      {
+        "language": "French",
+        "inflection": "intéressantes",
+        "gender": "feminin",
+        "number": "plural"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "language": "German",
+    "original": "groß",
+    "transliteration": "gross",
+    "pos": "adjective",
+    "inflections": [
+      {
+        "language": "German",
+        "inflection": "große",
+        "case": "nominative",
+        "person": "masculine"
+      },
+      {
+        "language": "German",
+        "inflection": "große",
+        "case": "nominative",
+        "person": "feminin"
+      },
+      {
+        "language": "German",
+        "inflection": "große",
+        "case": "accusative",
+        "person": "neuter"
+      },
+      {
+        "language": "German",
+        "inflection": "großen",
+        "case": "accusative",
+        "person": "plural"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "language": "Japanese",
+    "original": "面白い",
+    "alternative": "おもしろい",
+    "transliteration": "omoshiroi",
+    "pos": "na-adjective",
+    "inflections": [
+      {
+        "language": "Japanese",
+        "inflection": "面白かった",
+        "tense": "past",
+        "negative": false
+      },
+      {
+        "language": "Japanese",
+        "inflection": "面白くなかった",
+        "tense": "past",
+        "negative": true
+      }
+    ]
+  }
+]
