@@ -28,20 +28,23 @@ public class HomeActivity extends AppCompatActivity {
 
     private final Gson gson = new GsonBuilder().registerTypeAdapterFactory(inflectionRuntimeTypeAdapter).create();
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_home);
+
+        String json = "";
 
         try {
             final InputStream is = getResources().getAssets().open("words.json");
             java.util.Scanner s = new java.util.Scanner(is).useDelimiter("\\A");
-            String json = s.hasNext() ? s.next() : "";
+            json = s.hasNext() ? s.next() : "";
             is.close();
-            ArrayList<Word> words = gson.fromJson(json, new TypeToken<ArrayList<Word>>(){}.getType());
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        ArrayList<Word> words = gson.fromJson(json, new TypeToken<ArrayList<Word>>(){}.getType());
+
+        setContentView(R.layout.activity_home);
     }
 }
