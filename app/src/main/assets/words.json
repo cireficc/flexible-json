@@ -9,25 +9,25 @@
       {
         "language": "French",
         "inflection": "intéressant",
-        "gender": "mascline",
+        "gender": "masculine",
         "number": "singular"
       },
       {
         "language": "French",
         "inflection": "intéressante",
-        "gender": "feminin",
+        "gender": "feminine",
         "number": "singular"
       },
       {
         "language": "French",
         "inflection": "intéressants",
-        "gender": "mascline",
+        "gender": "masculine",
         "number": "plural"
       },
       {
         "language": "French",
         "inflection": "intéressantes",
-        "gender": "feminin",
+        "gender": "feminine",
         "number": "plural"
       }
     ]
